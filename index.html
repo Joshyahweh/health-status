@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health Details</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body class="bg-primary">
+    <div class="container">
+      <div class="row mt-5">
+        <h1 class="text-center fw-bold text-uppercase text-white my-5">
+          Health Status
+        </h1>
+        <div class="col form">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  Hepatitis Check
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <form action="" id="form">
+                  <table class="table text-uppercase">
+                    <thead>
+                      <div class="row">
+                        <tr>
+                          <th scope="col" class="col">
+                            Age
+                            <div class="input-group mb-3">
+                              <input
+                                type="number"
+                                class="form-control"
+                                placeholder="E.g 40"
+                                aria-label="Age"
+                                aria-describedby="basic-addon1"
+                                min="0"
+                              />
+                            </div>
+                          </th>
+                          <th scope="col" class="col">
+                            Sex
+                            <div class="input-group mb-3">
+                              <select
+                                class="form-select"
+                                id="inputGroupSelect01"
+                              >
+                                <option selected>Male</option>
+                                <option value="2">Female</option>
+                                <option value="3">Can't Say</option>
+                              </select>
+                            </div>
+                          </th>
+                          <th scope="col" class="col">
+                            alb
+                            <div class="input-group mb-3">
+                              <input
+                                type="number"
+                                class="form-control"
+                                placeholder="38.5"
+                                aria-label="ALB"
+                                aria-describedby="basic-addon1"
+                                min="0"
+                                max="82"
+                              />
+                            </div>
+                          </th>
+                          <th scope="col" class="col">
+                            alp
+                            <div class="input-group mb-3">
+                              <input
+                                type="number"
+                                class="form-control"
+                                placeholder="52.5"
+                                aria-label="ALP"
+                                aria-describedby="basic-addon1"
+                                min="0"
+                                max="417"
+                              />
+                            </div>
+                          </th>
+                        </tr>
+                      </div>
+                      <div class="row">
+                        <tr>
+                          <th scope="col" class="col">
+                            alt
+                            <div class="input-group mb-3">
+                              <input
+                                type="number"
+                                class="form-control"
+                                placeholder="7.7"
+                                aria-label="ALT"
+                                aria-describedby="basic-addon1"
+                                min="0"
+                                max="325"
+                              />
+                            </div>
+                          </th>
+                          <th scope="col" class="col">
+                            ast
+                            <div class="input-group mb-3">
+                              <input
+                                type="number"
+                                class="form-control"
+                                placeholder="22.1"
+                                aria-label="AST"
+                                aria-describedby="basic-addon1"
+                                min="0"
+                                max="324"
+                              />
+                            </div>
+                          </th>
+                          <th scope="col" class="col">
+                            bil
+                            <div class="input-group mb-3">
+                              <input
+                                type="number"
+                                class="form-control"
+                                placeholder="7.5"
+                                aria-label="BIL"
+                                aria-describedby="basic-addon1"
+                                min="0"
+                                max="254"
+                              />
+                            </div>
+                          </th>
+                          <th scope="col" class="col">
+                            che
+                            <div class="input-group mb-3">
+                              <input
+                                type="number"
+                                class="form-control"
+                                placeholder="6.93"
+                                aria-label="CHE"
+                                aria-describedby="basic-addon1"
+                                min="0"
+                                max="16"
+                              />
+                            </div>
+                          </th>
+                        </tr>
+                      </div>
+                      <div class="row">
+                        <tr>
+                          <th scope="col" class="col">
+                            chol
+                            <div class="input-group mb-3">
+                              <input
+                                type="number"
+                                class="form-control"
+                                placeholder="3.32"
+                                aria-label="CHOL"
+                                aria-describedby="basic-addon1"
+                                min="0"
+                                max="10"
+                              />
+                            </div>
+                          </th>
+                          <th scope="col" class="col">
+                            crea
+                            <div class="input-group mb-3">
+                              <input
+                                type="number"
+                                class="form-control"
+                                placeholder="106.0"
+                                aria-label="CREA"
+                                aria-describedby="basic-addon1"
+                                min="0"
+                                max="1079"
+                              />
+                            </div>
+                          </th>
+                          <th scope="col" class="col">
+                            ggt
+                            <div class="input-group mb-3">
+                              <input
+                                type="number"
+                                class="form-control"
+                                placeholder="12.1"
+                                aria-label="GGT"
+                                aria-describedby="basic-addon1"
+                                min="0"
+                                max="651"
+                              />
+                            </div>
+                          </th>
+                          <th scope="col" class="col">
+                            prot
+                            <div class="input-group mb-3">
+                              <input
+                                type="number"
+                                class="form-control"
+                                placeholder="69.0"
+                                aria-label="PROT"
+                                aria-describedby="basic-addon1"
+                                min="0"
+                                max="90"
+                              />
+                            </div>
+                          </th>
+                        </tr>
+                      </div>
+                    </thead>
+                  </table>
+                  <div class="row justify-content-center mb-3">
+                    <button
+                      type="submit"
+                      class="btn btn-primary btn-lg btnResult"
+                      style="width: fit-content"
+                    >
+                      Get Result
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  Heart Diseases
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <form action="">
+                  <table class="table text-uppercase">
+                    <thead>
+                      <div class="row">
+                        <tr>
+                          <th scope="col" class="col">
+                            Age
+                            <div class="input-group mb-3">
+                              <input
+                                type="number"
+                                class="form-control"
+                                placeholder="E.g 40"
+                                aria-label="Age"
+                                aria-describedby="basic-addon1"
+                                min="0"
+                              />
+                            </div>
+                          </th>
+                          <th scope="col" class="col">
+                            Sex
+                            <div class="input-group mb-3">
+                              <select
+                                class="form-select"
+                                id="inputGroupSelect01"
+                              >
+                                <option selected>Male</option>
+                                <option value="2">Female</option>
+                                <option value="3">Can't Say</option>
+                              </select>
+                            </div>
+                          </th>
+                          <th scope="col" class="col-3">
+                            Chest Pain Type
+                            <div class="input-group mb-3">
+                              <select
+                                class="form-select"
+                                id="inputGroupSelect01"
+                              >
+                                <option selected>ATA</option>
+                                <option value="2">NAP</option>
+                                <option value="3">ASY</option>
+                                <option value="4">TA</option>
+                              </select>
+                            </div>
+                          </th>
+                          <th scope="col" class="col">
+                            Resting BP
+                            <div class="input-group mb-3">
+                              <input
+                                type="number"
+                                class="form-control"
+                                placeholder="140"
+                                aria-label="ALP"
+                                aria-describedby="basic-addon1"
+                                min="0"
+                                max="200"
+                              />
+                            </div>
+                          </th>
+                        </tr>
+                      </div>
+                      <div class="row">
+                        <tr>
+                          <th scope="col" class="col">
+                            Cholesterol
+                            <div class="input-group mb-3">
+                              <input
+                                type="number"
+                                class="form-control"
+                                placeholder="289"
+                                aria-label="ALT"
+                                aria-describedby="basic-addon1"
+                                min="0"
+                                max="603"
+                              />
+                            </div>
+                          </th>
+                          <th scope="col" class="col">
+                            Fasting BS
+                            <div class="input-group mb-3">
+                              <input
+                                type="number"
+                                class="form-control"
+                                placeholder="0"
+                                aria-label="AST"
+                                aria-describedby="basic-addon1"
+                                min="0"
+                                max="1"
+                              />
+                            </div>
+                          </th>
+                          <th scope="col" class="col">
+                            Resting ECG
+                            <div class="input-group mb-3">
+                              <select
+                                class="form-select"
+                                id="inputGroupSelect01"
+                              >
+                                <option selected>Normal</option>
+                                <option value="2">ST</option>
+                                <option value="3">LVH</option>
+                              </select>
+                            </div>
+                          </th>
+                          <th scope="col" class="col">
+                            Max HR
+                            <div class="input-group mb-3">
+                              <input
+                                type="number"
+                                class="form-control"
+                                placeholder="172"
+                                aria-label="CHE"
+                                aria-describedby="basic-addon1"
+                                min="0"
+                                max="202"
+                              />
+                            </div>
+                          </th>
+                        </tr>
+                      </div>
+                      <div class="row">
+                        <tr>
+                          <th scope="col" class="col">
+                            Exercise Angina
+                            <div class="input-group mb-3">
+                              <select
+                                class="form-select"
+                                id="inputGroupSelect01"
+                              >
+                                <option selected>N</option>
+                                <option value="2">Y</option>
+                              </select>
+                            </div>
+                          </th>
+                          <th scope="col" class="col">
+                            Old Peak
+                            <div class="input-group mb-3">
+                              <input
+                                type="number"
+                                class="form-control"
+                                placeholder="0.0"
+                                aria-label="CREA"
+                                aria-describedby="basic-addon1"
+                                min="0"
+                                max="6"
+                              />
+                            </div>
+                          </th>
+                          <th scope="col" class="col">
+                            ST Slope
+                            <div class="input-group mb-3">
+                              <select
+                                class="form-select"
+                                id="inputGroupSelect01"
+                              >
+                                <option selected>Up</option>
+                                <option value="2">Flat</option>
+                                <option value="3">Down</option>
+                              </select>
+                            </div>
+                          </th>
+                        </tr>
+                      </div>
+                    </thead>
+                  </table>
+                  <div class="row justify-content-center mb-3">
+                    <button
+                      type="button"
+                      class="btn btn-primary btn-lg btnResult"
+                      style="width: fit-content"
+                    >
+                      Get Result
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  Stroke (Coming Soon)
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Comiing Soon, Netflix and Chill
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <button
+            type="button"
+            class="btn btn-lg bg-white text-primary btn-container"
+          >
+            Login to store your records
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <form class="row g-3">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label"
+          >Email address</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="name@example.com"
+        />
+      </div>
+
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3 email">
+          Confirm identity
+        </button>
+      </div>
+    </form>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/script.js"></script>
+  </body>
+</html>
